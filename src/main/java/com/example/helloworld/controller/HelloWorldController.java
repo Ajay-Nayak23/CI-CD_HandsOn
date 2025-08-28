@@ -10,4 +10,8 @@ public class HelloWorldController {
     public String sendGreetings() {
         return "Hello, World!";
     }
+     @GetMapping("/bye")
+    public String sendGreetings() {
+        return "bye, World!!";
+    }
 }
